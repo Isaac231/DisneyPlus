@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(9, 9, 25);
+    font-family: Avenir-World-for-Disney-Demi,sans-serif;
+    color: white;
+    margin: 0px;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background: linear-gradient(rgb(15,15,15), rgb(9, 9, 25));
+    padding-top: 30px;
+    min-height: 300px;
+}
+#options{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
