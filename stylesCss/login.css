@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(9, 9, 25);
+    margin: 0px;
+}
+#degraded{
+    background: linear-gradient(rgb(15,15,15), rgb(9, 9, 25));
+    min-height: 200px;
+}

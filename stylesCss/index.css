@@ -1,7 +1,5 @@
 body{
     background-color: rgb(9, 9, 25);
-    font-family: Avenir-World-for-Disney-Demi,sans-serif;
-    color: white;
     margin: 0px;
 }
 nav {
@@ -14,4 +12,8 @@ nav {
 #options{
     display: grid;
     grid-template-columns: repeat(7, auto);
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(250, 250, 250);
 }
