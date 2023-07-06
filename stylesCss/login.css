@@ -7,12 +7,60 @@ body{
     min-height: 200px;
 }
 #login{
-    color: rgb(255, 255, 255);
+    color: rgb(214, 212, 212);
     font-family: Quicksand;
     text-align: center;
+    font-size: 21px;
+    padding: 10px;
+}
+#login p{
+    margin: 20px 0px 5px;
+    font-weight:bold;
 }
 img{
     border-radius: 100%;
     max-width: 200px;
     max-height: 200px;
+}
+#login input[type=text] {
+    padding: 2px;
+    font-weight: 500;
+    background-color: rgb(240, 235, 235);
+    color: rgb(49, 49, 49);
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 17px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#login input[type=password]{
+    padding: 2px;
+    font-weight: 500;
+    background-color: rgb(240, 235, 235);
+    color: rgb(49, 49, 49);
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 17px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#login button {
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 4px 30px 4px;
+    font-family: Quicksand;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 61);
+    color: rgb(209, 207, 207);
+    border: 0px;
+}
+#line{
+    min-height: 2px;
+    background-color: rgba(255, 255, 255, 0.534);
+    margin-top: 30px;
+    margin-left: 42%;
+    margin-right: 42%;
 }
