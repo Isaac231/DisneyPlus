@@ -12,13 +12,17 @@
     <div id="login">
         <img src="resources/userPhoto/39993457.png">
         <p>Usuario:</p>
-        <input type="text">
+        <input id="user" type="text">
         <p>Contraseña:</p>
-        <input type="password">
+        <input id="password" type="password">
         <br>
-        <button>Entrar</button>
+        <button id="login" onclick="login()">Entrar</button>
         <div id="line"></div>
         <br>
-        <a style="font-size: 18px ;">Registrarse</a>
+        <div id="linkSpace">
+            <a>Registrarse</a>
+            <div id="lineLink"></div>
+        </div>
     </div>
+    <script src="scripts/login.js"></script>
 </body>
