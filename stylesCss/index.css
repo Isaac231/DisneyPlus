@@ -15,14 +15,37 @@ nav {
     font-weight: 600;
     font-size: 15px;
     color: rgb(250, 250, 250);
+    text-align: center;
+}
+#options #space{
+    display: inline-block;
+    margin: 25px 0px 0px;
 }
 #options a {
-    padding-top: 20px;
+    text-decoration-line: none;
+}
+#options a:visited{
+    color: rgb(255, 255, 255);
+}
+#options a #line{
+    min-height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: auto 100%;
+}
+#options a:hover #line{
+    margin: auto 20px auto 48px;
+    transition-property: margin;
+    transition-duration: 240ms;
+}
+#options #icon{
+    max-width: 12px;
+    max-height: 12px;
+    margin-right: 15px;
 }
 #options #logo{
    margin-bottom: 300px;
    padding-top: 10px;
-   padding-left: 40px;
+   padding-left: 10px;
 }
 #options #logo img {
     max-width: 75px;
