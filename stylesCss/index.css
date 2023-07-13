@@ -2,6 +2,7 @@ body{
     background-color: rgb(9, 9, 25);
     margin: 0px;
 }
+/*Aqui Comienza el codigo del nav*/
 nav {
     display: grid;
     grid-template-columns: repeat(2, 50%);
